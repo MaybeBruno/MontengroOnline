@@ -11,6 +11,12 @@
   color: #E30A15;
   font-size: 1.5rem;
   font-weight: bold;
+
+}
+.Container-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .nav {
@@ -49,3 +55,10 @@
     font-size: 0.95rem;
   }
 }
+
+.logo-imagen {
+  height: 75px;   
+  width: auto;
+  display: inline-block;
+}
+
