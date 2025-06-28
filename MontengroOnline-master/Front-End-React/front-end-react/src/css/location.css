@@ -1,0 +1,84 @@
+
+.location-wrapper {
+  background-color: #000;
+  min-height: calc(100vh - 108px);
+  padding: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.location-card {
+  display: flex;
+  background-color: #111;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.location-text,
+.location-image-wrapper {
+  width: 50%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.location-title {
+  color: #3caa33;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.location-description {
+  color: #eee;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.location-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.location-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  max-height: 700px;
+  max-width: 90%;
+}
+
+@media (max-width: 768px) {
+  .location-card {
+    flex-direction: column;
+  }
+
+  .location-text,
+  .location-image-wrapper {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .location-image {
+    max-height: none;
+    width: 100%;
+  }
+}
+.login-logo-wrapper {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-logo-location {
+  height: 300px;   
+  width: auto;
+  display: inline-block;
+}
